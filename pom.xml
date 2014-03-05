@@ -178,6 +178,20 @@
         <pluginManagement/>
 
         <plugins>
+            <plugin>
+                <groupId>com.jelastic</groupId>
+                <artifactId>jelastic-maven-plugin</artifactId>
+                <version>1.7</version>
+                <configuration>
+                    <email>aminul2050@yahoo.com</email>
+                    <password>iUngIgUckP</password>
+                    <context>ROOT</context>
+                    <environment>polling</environment>
+                    <comment>test deployment</comment>
+
+                    <api_hoster>app.jelastic.servint.net</api_hoster>
+                </configuration>
+            </plugin>
             <!-- Disables the Maven surefire plugin for Grails applications, as we have our own test runner -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -238,6 +252,16 @@
             <id>grails-plugins</id>
             <name>grails-plugins</name>
             <url>http://repo.grails.org/grails/plugins</url>
+        </repository>
+        <repository>
+            <id>sonatype-oss-public</id>
+            <url>https://oss.sonatype.org/content/groups/public</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
         </repository>
     </repositories>
 
