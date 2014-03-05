@@ -6,7 +6,8 @@
     
     <groupId>com.mypro</groupId>
     <artifactId>mypro</artifactId>
-    <packaging>grails-app</packaging>
+    <!--<packaging>grails-app</packaging>-->
+    <packaging>war</packaging>
     <version>0.1</version>
 
     <name>mypro</name>
