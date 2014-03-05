@@ -20,6 +20,12 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.mypro</groupId>
+            <artifactId>mypro</artifactId>
+            <version>0.1</version>
+            <type>war</type>
+        </dependency>
+        <dependency>
             <groupId>org.grails</groupId>
             <artifactId>grails-plugin-async</artifactId>
             <version>${grails.version}</version>
